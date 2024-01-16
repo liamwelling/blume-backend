@@ -1,0 +1,45 @@
+{
+  "name": "blume-backend",
+  "version": "0.1.0",
+  "description": "blume backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.212.0",
+    "@aws-sdk/s3-request-presigner": "^3.213.0",
+    "@prisma/client": "^4.6.1",
+    "api": "^4.5.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "1.18.x",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "ejs": "2.5.x",
+    "express": "4.16.x",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "2.22.x",
+    "moment-timezone": "^0.5.43",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^2.0.5",
+    "plaid": "^9.9.0",
+    "sharp": "^0.31.2",
+    "stripe": "^11.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/sharp": "^0.31.0",
+    "jsdoc": "^4.0.2"
+  }
+}
