@@ -1,6 +1,8 @@
 # blume-backend
- JSDoc: Global  
+<p align="center">
+  <img src="/assets/blumeicon.png" height=100>
 
+</p>
 Global
 ======
 
